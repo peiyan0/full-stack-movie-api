@@ -1,0 +1,20 @@
+### FIND ALL MOVIES
+GET http://localhost:8080/api/v1/movies
+Accept: application/json
+
+<> 2025-03-06T022223.200.json
+
+### FIND MOVIE BY ID
+GET http://localhost:8080/api/v1/movies/tt3915174
+Accept: application/json
+
+<> 2025-03-06T022334.200.json
+
+### CREATE A NEW REVIEW
+POST http://localhost:8080/api/v1/reviews
+Content-Type: application/json
+
+{
+    "reviewBody": "This is a great movie!",
+    "imdbId": "tt3915174"
+}
