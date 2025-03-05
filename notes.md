@@ -10,3 +10,5 @@
 ### MongoDB
 - cluster created using own IP address
 - connection using MongoDB Compass
+
+.env file to store environment variables eg. connection string
