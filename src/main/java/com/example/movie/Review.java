@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Review {
-//    @Id
+    @Id
     private ObjectId id;
     private String body;
     private LocalDateTime created;
