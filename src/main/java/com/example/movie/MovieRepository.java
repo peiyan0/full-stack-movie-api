@@ -8,6 +8,6 @@ import java.util.Optional;
 
 @Repository // indicate this is a repository
 public interface MovieRepository extends MongoRepository<Movie, ObjectId> {
-    Optional<Movie> findMovieByImdbId(String imdbId);
+    Optional<Movie> findByImdbId(String imdbId);
 
 }
