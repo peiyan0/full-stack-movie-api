@@ -5,6 +5,7 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.GetMapping;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -16,6 +17,10 @@ public class ReviewService {
     private ReviewRepository repository; // inject MovieRepository
     @Autowired
     private MongoTemplate mongoTemplate;
+
+    public List<Review> getAllReviews() {
+        return repository.findAll();
+    }
 
     public Review createReview(String reviewBody, String imdbId) {
         Review review = repository.insert(new Review(reviewBody, LocalDateTime.now(), LocalDateTime.now()));
