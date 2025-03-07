@@ -1,20 +1,20 @@
-# Movie API
+## Movie API
 - full stack development project to create a movie API
 
-## Technologies
+### Technologies
 - Java
 - Spring Boot
 - React
 - MongoDB
 
-## Spring Dependencies
+### Spring Dependencies
 - Lombok
 - Spring Web
 - Spring Data MongoDB
 - Spring Boot DevTools
 - Spring Dotenv
 
-## React Packages
+### React Packages
 - axios (API/HTTP request) get, post
 - bootstrap (styling)
 - react-bootstrap (react components)
@@ -25,7 +25,7 @@
 - @fortawesome/free-solid-svg-icons (icons)
 - @mui/material @emotion/react @emotion/styled (material ui for modern ui components)
 
-## MongoDB databases
+### MongoDB databases
 - movie-api-db
   - movies
   - reviews
