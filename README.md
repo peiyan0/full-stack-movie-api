@@ -7,7 +7,7 @@
 - MongoDB
 - React
 
-## ✨ Features
+### Features
 - REST API with CRUD operations  
 - Real-time search & filtering (10,000+ movies)  
 - <200ms average API response time  
